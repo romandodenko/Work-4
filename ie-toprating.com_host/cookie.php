@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ga">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Na cluichí is fearr do do siamsaíochta">
+  <meta name="rating" content="adult">
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/.woff" as="font">
+  <link rel="preload" href="./fonts/.woff2" as="font">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/smooth-scroll/smooth-scroll.js"></script>
+  <script defer src="./js/main.js"></script>
+  <title>Ie-toprating - Polasaí Fianán le haghaidh</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__content">
+      <header class="header">
+        <div class="header__container container">
+          <button class="burger" aria-label="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__menu">
+            <a class="header__logo header__logo_menu" href="main.php">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php">
+                    Príomhleathanach
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#benefits">
+                    Buntáiste
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#about">
+                    Fúinn
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#games">
+                    Cluichí
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__exit-menu"></button>
+          </div>
+          <div class="header__right">
+            <a class="header__logo" href="main.php">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+            <span class="header__icon">
+              <img src="./img/18+.svg" alt="Icon">
+            </span>
+          </div>
+        </div>
+      </header>
+      <div class="page__body">
+        <main>
+          <section class="top">
+            <div class="top__container container">
+              <a class="top__logo" href="main.php">
+                <img src="./img/logo.svg" alt="Logo">
+              </a>
+              <span class="top__icon">
+                <img src="./img/18+.svg" alt="Icon">
+              </span>
+            </div>
+          </section>
+          <section class="terms">
+            <div class="terms__container container">
+              <div class="terms__column">
+                <h1>Polasaí Fianán le haghaidh ie-toprating.com</h1>
+
+                <p>Seo é an Polasaí Fianán le haghaidh ie-toprating.com, inrochtana ó ie-toprating.com</p>
+
+                <h2><strong>Cad is Fianáin ann</strong></h2>
+
+                <p>Mar is gnách le beagnach gach suíomh Gréasáin gairmiúil úsáideann an láithreán seo fianáin, atá beag
+                  bídeach
+                  comhaid a íoslódáiltear chuig do ríomhaire, chun d'eispéireas a fheabhsú. Déanann an leathanach seo
+                  cur síos ar a bhfuil
+                  faisnéis a bhailíonn siad, conas a úsáidimid é agus cén fáth a gcaithfimid na fianáin seo a stóráil
+                  uaireanta. Déanfaimid freisin
+                  roinn conas is féidir leat cosc a chur ar na fianáin seo a stóráil ach d'fhéadfadh sé seo íosghrádú nó
+                  'briseadh' a dhéanamh
+                  gnéithe áirithe d'fheidhmiúlacht an tsuímh.</p>
+
+                <h2><strong>Conas a Úsáidimid Fianáin</strong></h2>
+
+                <p>Úsáideann muid fianáin ar chúiseanna éagsúla atá sonraithe thíos. Ar an drochuair i bhformhór na
+                  gcásanna níl aon
+                  roghanna caighdeánacha tionscail chun fianáin a dhíchumasú gan an fheidhmiúlacht a dhíchumasú go
+                  hiomlán agus
+                  gnéithe a chuireann siad leis an suíomh seo. Moltar duit fágáil ar gach fianán mura bhfuil tú cinnte
+                  cibé an bhfuil siad ag teastáil uait nó nach bhfuil ar eagla go n-úsáidtear iad chun seirbhís a
+                  úsáideann tú a sholáthar.</p>
+
+                <h2><strong>Fianáin á ndíchumasú</strong></h2>
+
+                <p>Is féidir leat socrú na bhfianán a chosc trí na socruithe ar do bhrabhsálaí a choigeartú (féach ar do
+                  bhrabhsálaí
+                  Cabhrú le conas é seo a dhéanamh). Bí ar an eolas go gcuirfidh díchumasú fianáin isteach ar
+                  fheidhmiúlacht seo agus
+                  go leor suíomhanna gréasáin eile a dtugann tú cuairt orthu. De ghnáth beidh díchumasú áirithe mar
+                  thoradh ar fhianáin a dhíchumasú
+                  feidhmiúlacht agus gnéithe an tsuímh seo.
+                </p>
+
+              </div>
+              <div class="terms__column">
+                <h2><strong>Na Fianáin a Shocróimid</strong></h2>
+
+                <ul>
+
+                  <li>
+                    <p>Fianáin a bhaineann le nuachtlitreacha ríomhphoist</p>
+                    <p>Cuireann an suíomh seo seirbhísí síntiúis nuachtlitreach nó ríomhphoist ar fáil agus is féidir
+                      fianáin a úsáid chun cuimhneamh ar
+                      go bhfuil tú cláraithe cheana féin agus cibé acu an dtaispeánfar fógraí áirithe nach bhfuil ach
+                      bailí dóibh
+                      úsáideoirí suibscríofa/díliostaithe.</p>
+                  </li>
+
+                </ul>
+
+                <h2><strong>Fianáin Tríú Páirtí</strong></h2>
+
+                <p>I gcásanna speisialta bainimid úsáid freisin as fianáin a sholáthraíonn tríú páirtithe iontaofa. An
+                  t-alt seo a leanas
+                  sonraí faoi na fianáin tríú páirtí a dtiocfadh leat teacht orthu tríd an suíomh seo.</p>
+
+                <ul>
+
+                  <li>
+                    <p>Úsáidimid cnaipí meán sóisialta agus/nó forlíontáin ar an suíomh seo freisin a ligeann duit
+                      nascadh le do chuid
+                      líonra sóisialta ar bhealaí éagsúla. Le go n-oibreoidh siad seo na suíomhanna meán sóisialta seo a
+                      leanas lena n-áirítear;
+                      {Liostaigh na líonraí sóisialta a bhfuil a gcuid gnéithe comhtháite agat le do shuíomh?:12},
+                      socróidh sé fianáin
+                      trínár láithreán a d’fhéadfaí a úsáid chun do phróifíl ar a suíomh a fheabhsú nó chun cur leis na
+                      sonraí
+                      coimeádann siad chun críocha éagsúla atá leagtha amach ina bpolasaithe príobháideachais faoi
+                      seach.</p>
+                  </li>
+
+                </ul>
+
+                <h2><strong>Tuilleadh Eolais</strong></h2>
+
+                <p>Tá súil agam go bhfuil rudaí soiléirithe duit agus mar a luadh cheana má tá rud éigin ann
+                  nach bhfuil tú cinnte an dteastaíonn uait nó nach bhfuil sé níos sábháilte fianáin a fhágáil
+                  cumasaithe ar eagla na heagla
+                  idirghníomhaíonn tú le ceann de na gnéithe a úsáideann tú ar ár suíomh.</p>
+              </div>
+            </div>
+          </section>
+        </main>
+<?php
+include 'footer.php';
+?>

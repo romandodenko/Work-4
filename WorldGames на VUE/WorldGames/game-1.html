@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Social world games - Free games for you">
+  <meta name="rating" content="adult">
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/smooth-scroll/smooth-scroll.js"></script>
+  <script defer src="./resources/vue/vue.js"></script>
+  <script defer src="./resources/vue/vue.min.js"></script>
+  <script defer src="./js/main.js"></script>
+  <title>Social world games - Free games for you</title>
+</head>
+
+<body>
+  <div class="page" id="page" id="page">
+    <header class="header">
+      <div class="header__container container">
+        <button class="burger" aria-label="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header__menu">
+          <a class="header__logo header__logo_menu" v-bind:href="logoLink">
+            {{ logo }}
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item" v-for="link in headerLinks">
+                <a class="nav__link" v-bind:href="link.src">
+                  {{ link.text }}
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__exit-menu"></button>
+        </div>
+        <div class="header__right">
+          <a class="header__logo" v-bind:href="logoLink">
+            {{ logo }}
+          </a>
+          <span class="header__icon">
+            <img v-bind:src="headerIcon" alt="Icon">
+          </span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="slot">
+        <div class="container">
+          <h1 class="slot__title">
+            {{ gameTitle1 }}
+          </h1>
+          <div class="slot__content">
+            <iframe v-bind:src="gameSrc1" frameborder="0"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <a class="footer__logo" v-bind:href="logoLink">
+          {{ logo }}
+        </a>
+        <p class="footer__text" v-for="text in textWarning">
+          <span>{{ text.text1 }}</span>
+          {{ text.text2 }}
+        </p>
+        <ul class="footer__list">
+          <li class="footer__item" v-for="link in footerLinks">
+            <a class="footer__link" v-bind:href="link.src">
+              {{ link.text }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

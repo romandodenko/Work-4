@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ga">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Na cluichí is fearr do do siamsaíochta">
+  <meta name="rating" content="adult">
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/.woff" as="font">
+  <link rel="preload" href="./fonts/.woff2" as="font">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./resources/smooth-scroll/smooth-scroll.js"></script>
+  <script defer src="./js/main.js"></script>
+  <title>Ie-toprating - Na cluichí is fearr do do siamsaíochta</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__content">
+      <header class="header">
+        <div class="header__container container">
+          <button class="burger" aria-label="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__menu">
+            <a class="header__logo header__logo_menu" href="main.php">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php">
+                    Príomhleathanach
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#benefits">
+                    Buntáiste
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#about">
+                    Fúinn
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="main.php#games">
+                    Cluichí
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__exit-menu"></button>
+          </div>
+          <div class="header__right">
+            <a class="header__logo" href="main.php">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+            <span class="header__icon">
+              <img src="./img/18+.svg" alt="Icon">
+            </span>
+          </div>
+        </div>
+      </header>
+      <div class="page__body">
+        <main>
+          <section class="top">
+            <div class="top__container container">
+              <a class="top__logo" href="main.php">
+                <img src="./img/logo.svg" alt="Logo">
+              </a>
+              <span class="top__icon">
+                <img src="./img/18+.svg" alt="Icon">
+              </span>
+            </div>
+          </section>
+          <section class="hero">
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__body">
+                  <span class="hero__span">
+                    Gry dla zabawy
+                  </span>
+                  <h1 class="hero__title">
+                    Na cluichí is fearr do do siamsaíochta
+                  </h1>
+                  <ul class="hero__list">
+                    <li class="hero__item hero__item_1">
+                      <a class="hero__link hero__link_1" href="#games">
+                        Imirt
+                      </a>
+                    </li>
+                    <li class="hero__item hero__item_2">
+                      <a class="hero__link hero__link_2" href="#about">
+                        Fúinn
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="hero__text">
+                    <span>Ní thugann na cluichí a thairgtear ar an suíomh deis d’úsáideoirí fíor-airgead a
+                      bhuachan.</span>
+                    Ní chuireann an suíomh seo scileanna ar fáil d'úsáideoirí ar féidir iad a úsáid i
+                    bhfíorchearrbhachas. Tá na cluichí ar fáil d’úsáideoirí atá os cionn 18 mbliana d’aois.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="benefits" id="benefits">
+            <div class="container">
+              <ul class="benefits__list">
+                <li class="benefits__item">
+                  <span class="benefits__icon">
+                    <img src="./img/icon-1.svg" alt="Icon">
+                  </span>
+                  <h3 class="benefits__title">
+                    Níl gá a íoslódáil
+                  </h3>
+                  <p class="benefits__text">
+                    Seinn meaisíní sliotán go díreach i do bhrabhsálaí
+                  </p>
+                </li>
+                <li class="benefits__item">
+                  <span class="benefits__icon">
+                    <img src="./img/icon-2.svg" alt="Icon">
+                  </span>
+                  <h3 class="benefits__title">
+                    Seinn gan riosca
+                  </h3>
+                  <p class="benefits__text">
+                    Is féidir cluichí airgid anaithnid a iniúchadh gan mórán riosca.
+                  </p>
+                </li>
+                <li class="benefits__item">
+                  <span class="benefits__icon">
+                    <img src="./img/icon-3.svg" alt="Icon">
+                  </span>
+                  <h3 class="benefits__title">
+                    Gan chlárú
+                  </h3>
+                  <p class="benefits__text">
+                    Ní éilíonn an cluiche saor in aisce clárú agus aon sonraí pearsanta a sholáthar
+                  </p>
+                </li>
+                <li class="benefits__item">
+                  <span class="benefits__icon">
+                    <img src="./img/icon-4.svg" alt="Icon">
+                  </span>
+                  <h3 class="benefits__title">
+                    Deiseanna nua
+                  </h3>
+                  <p class="benefits__text">
+                    Is féidir leat tactics nua a fhorbairt le haghaidh meaisíní sliotán éagsúla
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="about" id="about">
+            <div class="container">
+              <div class="about__content">
+                <h2 class="about__title">
+                  Fúinn agus ár gcluichí saor in aisce
+                </h2>
+                <div class="about__body">
+                  <div class="about__descr">
+                    <p class="about__text">
+                      Más mian leat cluichí a imirt saor in aisce gan chlárú, tá tú tagtha go dtí an áit cheart! Le linn
+                      tá an deis agat níos mó ná 1000 cluichí éagsúla a thriail gan chlárú agus go hiomlán saor in
+                      aisce.
+                      Ar ár suíomh tá tú deis ar leith chun cluichí a imirt ó na monaróirí is fearr 100% saor in aisce
+                      agus gan chlárú ceart i do bhrabhsálaí. Cuireann sé seo céim amháin chun tosaigh ar fhormhór na
+                      gcluichí Gearmánacha mar is minic go mbíonn ort cuntas a chlárú agus uaireanta fiú bogearraí a
+                      íoslódáil sula bhféadfaidh tú na cluichí is fearr leat a imirt saor in aisce.
+                    </p>
+                    <div class="about__item">
+                      <div class="about__text">
+                        Ina theannta sin, is minic a bhíonn teorainn le roghnú na gcluichí saor in aisce, agus ní
+                        thairgeann ach monaróir amháin nó dhá cheann de na monaróirí cluichí le roghnú astu. Ar an láimh
+                        eile, is féidir leat sliotáin saor in aisce a fháil anseo ó Merkury, Novoline, Bally Wulff agus
+                        cluichí eile a bhfuil aithne agat orthu ó na sliotáin mhaith Gearmánacha go léir. Mar shampla,
+                        is féidir leat aon sliotán Tip, Eye of Horus, Dolphin's Pearl nó Book of Ra a imirt saor in
+                        aisce go díreach ar ár láithreán gréasáin agus ní gá duit aon bhogearraí a chlárú nó a íoslódáil
+                        chun é sin a dhéanamh.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="about__image" data-da=".about__item, 991, 1">
+                    <picture><source srcset="./img/about.webp"type="image/webp"><img src="./img/about.png" alt="Image"></picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="games" id="games">
+            <div class="container">
+              <ul class="games__list">
+                <li class="games__item">
+                  <div class="games__image">
+                    <a href="game-1.php">
+                      <picture><source srcset="./img/game-1.webp"type="image/webp"><img src="./img/game-1.png" alt="Image"></picture>
+                    </a>
+                  </div>
+                  <a class="games__link" href="game-1.php">
+                    Icy Gems
+                  </a>
+                </li>
+                <li class="games__item">
+                  <div class="games__image">
+                    <a href="game-2.php">
+                      <picture><source srcset="./img/game-2.webp"type="image/webp"><img src="./img/game-2.png" alt="Image"></picture>
+                    </a>
+                  </div>
+                  <a class="games__link" href="game-2.php">
+                    Frozen Gems
+                  </a>
+                </li>
+                <li class="games__item">
+                  <div class="games__image">
+                    <a href="game-3.php">
+                      <picture><source srcset="./img/game-3.webp"type="image/webp"><img src="./img/game-3.png" alt="Image"></picture>
+                    </a>
+                  </div>
+                  <a class="games__link" href="game-3.php">
+                    Yummy Wilds
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </main>
+        <div class="popup">
+          <div class="popup__close"></div>
+          <div class="popup__body">
+            <form class="popup__form" action="/">
+              <p class="popup__text">Tá ár gcluichí dírithe ar lucht féachana AOSAIGH 18 mbliana d’aois agus níos sine.
+                Trí chliceáil ar an
+                cnaipe deimhníonn tú d'aois.</p>
+              <label>
+                <input type="checkbox" name="number">
+              </label>
+              <label>
+                <input type="text" name="years-old">
+              </label>
+              <a class="popup__button" href="main.php">Aontaigh</a>
+            </form>
+          </div>
+        </div>
+        <?php
+        include 'footer.php';
+        ?>
